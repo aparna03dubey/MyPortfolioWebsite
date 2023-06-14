@@ -6,15 +6,21 @@ var type= new Typed(".anim",{
 })
 
 
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2000,
-    delay: 200,
-//     reset: true
-});
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2000,
+//     delay: 200,
+// //     reset: true
+// });
 
-sr.reveal('.h-data, .ab-img, .subtitle',{}); 
-sr.reveal('.h-img, .ab-subtitle, .ab-text',{delay: 400}); 
-sr.reveal('.h-social-icon',{ interval: 200}); 
-sr.reveal('.data,.contact__input',{interval: 200}); 
+// sr.reveal('.h-data, .ab-img, .subtitle',{}); 
+// sr.reveal('.h-img, .ab-subtitle, .ab-text',{delay: 400}); 
+// sr.reveal('.h-social-icon',{ interval: 200}); 
+// sr.reveal('.data,.contact__input',{interval: 200}); 
+
+// Pre-loader
+window.onload=function(){
+    document.getElementById('loader').style.display="none";
+    document.getElementById('main').style.display="block";
+}

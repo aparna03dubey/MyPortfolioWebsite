@@ -38,7 +38,22 @@
 html {
   scroll-behavior: smooth;
 }
-
+#main{
+  display: none;
+}
+#loader{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+#loader img{
+  width: 200px;
+}
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
