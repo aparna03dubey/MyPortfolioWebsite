@@ -376,7 +376,10 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  background-color: #faf1fa;
+  color: #3f093f;
 }
+
 .logo{
   padding-right: 20px;
 }
